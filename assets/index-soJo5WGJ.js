@@ -87,12 +87,12 @@ class CategoryFilter {
 }
 _select = new WeakMap();
 const RESTAURANT_CATEGORY_IMAGES = {
-  한식: "/assets/category-korean.png",
-  중식: "/assets/category-chinese.png",
-  일식: "/assets/category-japanese.png",
-  양식: "/assets/category-western.png",
-  아시안: "/assets/category-asian.png",
-  기타: "/assets/category-etc.png"
+  한식: `${"/js-lunch/"}assets/category-korean.png`,
+  중식: `${"/js-lunch/"}assets/category-chinese.png`,
+  일식: `${"/js-lunch/"}assets/category-japanese.png`,
+  양식: `${"/js-lunch/"}assets/category-western.png`,
+  아시안: `${"/js-lunch/"}assets/category-asian.png`,
+  기타: `${"/js-lunch/"}assets/category-etc.png`
 };
 function createRestaurantListItem({
   category,
